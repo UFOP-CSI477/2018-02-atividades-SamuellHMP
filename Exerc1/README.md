@@ -1,1 +1,1 @@
-Estes são os arquivos referentes ao exercício 1. Foram feitas três páginas html, uma folha de estilo css e uma imagem é utilizada. Para visualizar o resultado, baixe todos os arquivos e abra o menu em um navegador.
+Estes são os arquivos referentes ao exercício 1. Foram feitas três páginas html, uma folha de estilo css e uma imagem é utilizada. Para visualizar o resultado, baixe todos os arquivos e abra o arquivo Exerc1menu.html em um navegador.
