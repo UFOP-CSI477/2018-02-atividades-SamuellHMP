@@ -1,0 +1,1 @@
+Estes são os arquivos referentes ao exercício 2. Foram feitas três páginas html usando bootstrap e uma imagem é utilizada. Para visualizar o resultado, baixe todos os arquivos e abra o arquivo Exerc2menu.html em um navegador.
