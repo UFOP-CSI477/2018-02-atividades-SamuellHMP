@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>IMC</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<script src="./jquery-3.3.1.min.js"></script>
+
+    <script src="02-imc.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="topo">
+
+			<h1>Cálculo de IMC</h1>
+			
+		</div>
+
+
+		<div class="conteudo">
+
+			<form name="imc">
+
+		      	<div class="form-group" id="gPeso">
+			        <label for="peso">Digite seu peso:</label>
+			        <input type="text" name="peso" id="peso" class="form-control">
+
+			        <div class="alert alert-danger" style="display: none" id="alertaP">
+			          <p>Peso incorreto</p>
+			        </div>
+		      	</div>
+
+		      	<div class="form-group" id="gAltura">
+			        <label for="altura">Digite sua altura:</label>
+			        <input type="text" name="altura" id="altura" class="form-control">
+
+			        <div class="alert alert-danger" style="display: none" id="alertaA">
+			          <p>Altura incorreta</p>
+			        </div>
+		      	</div>
+
+			    <div class="form-group" id="gResposta">
+			        <label for="res">Seu IMC:</label>
+			        <input type="text" name="res" disabled class="form-control">
+			     </div>
+				
+				<div class="form-group" id="gClassificacao">
+			        <label for="cla">Sua classificação:</label>
+			        <input type="text" name="cla" disabled class="form-control">
+			     </div>
+				
+			     <div class="form-group" id="gSaudavel">
+			        <label for="sau">Seu peso ideal (saudável) é entre os seguintes valores:</label>
+			        <input type="text" name="sau1" disabled class="form-control">
+					<input type="text" name="sau2" disabled class="form-control">
+			     </div>
+
+		      	<button type="button" name="calculo" class="btn btn-primary">Calcular</button>
+
+		      	<button type="reset" name="limpar" class="btn btn-warning">Limpar</button>
+
+	      </form>
+
+		</div>
+		
+	</div>
+
+</body> 
