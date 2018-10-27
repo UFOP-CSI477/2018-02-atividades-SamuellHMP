@@ -1,0 +1,1 @@
+Estes são os arquivos referentes à atividade prática 1. Cada um dos dois tópicos propostos foram organizados em pastas diferentes. Para visualizar o resultado, baixe todos os arquivos e abra o arquivo "01-corrida.html" ou "02-imc.html" nas pastas correspondentes em um navegador.
